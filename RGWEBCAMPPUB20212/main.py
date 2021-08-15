@@ -5,18 +5,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 import zipfile
 
-pose_path = "pose.zip"
-zip_object = zipfile.ZipFile(file=pose_path, mode="r")
-zip_object.extractall("./")
+#pose_path = "pose.zip"
+#zip_object = zipfile.ZipFile(file=pose_path, mode="r")
+#zip_object.extractall("./")
 
-imagens_path = "../../../PycharmProjects/ReconhecimentoDeGestos/imagens.zip"
-zip_object = zipfile.ZipFile(file=imagens_path, mode="r")
-zip_object.extractall("./")
+#imagens_path = "../../../PycharmProjects/ReconhecimentoDeGestos/imagens.zip"
+#zip_object = zipfile.ZipFile(file=imagens_path, mode="r")
+#zip_object.extractall("./")
 
-modulos_path = "modulos.zip"
-zip_object = zipfile.ZipFile(file=modulos_path, mode="r")
-zip_object.extractall("./")
-zip_object.close()
+#modulos_path = "modulos.zip"
+#zip_object = zipfile.ZipFile(file=modulos_path, mode="r")
+#zip_object.extractall("./")
+#zip_object.close()
 
 sys.path.append('modulos/')
 sys.path
